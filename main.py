@@ -3,9 +3,9 @@ import time
 from selenium import webdriver, common
 
 os.system('cls && title [TikTok Automated Viewbot]')
-VIDEO_URL = input('[>] TikTok Video URL: ')
+VIDEO_URL = input('[>] TikTok Video URL:https://www.tiktok.com/@f3rgustarr/photo/7466027924508953863 ')
 
-views_sent = 0
+views_sent = 10000
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])  # Disables logging
 
